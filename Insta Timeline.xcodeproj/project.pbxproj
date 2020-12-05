@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08429FCE257B8CFC00741143 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08429FCD257B8CFC00741143 /* Post.swift */; };
+		08429FD4257B904900741143 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08429FD2257B904900741143 /* PostTableViewCell.swift */; };
+		08429FD5257B904900741143 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08429FD3257B904900741143 /* PostTableViewCell.xib */; };
 		087B030F257B5108006A9345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B030E257B5108006A9345 /* AppDelegate.swift */; };
 		087B0311257B5108006A9345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0310257B5108006A9345 /* SceneDelegate.swift */; };
-		087B0313257B5108006A9345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0312257B5108006A9345 /* ViewController.swift */; };
 		087B0316257B5108006A9345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B0314257B5108006A9345 /* Main.storyboard */; };
 		087B0319257B5108006A9345 /* Insta_Timeline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 087B0317257B5108006A9345 /* Insta_Timeline.xcdatamodeld */; };
 		087B031B257B5109006A9345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087B031A257B5109006A9345 /* Assets.xcassets */; };
 		087B031E257B5109006A9345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087B031C257B5109006A9345 /* LaunchScreen.storyboard */; };
+		087B032B257B54F0006A9345 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0329257B54F0006A9345 /* SignInViewController.swift */; };
+		087B032C257B54F0006A9345 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087B032A257B54F0006A9345 /* SignInViewController.xib */; };
+		087B0330257B5831006A9345 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B032E257B5831006A9345 /* SignUpViewController.swift */; };
+		087B0331257B5831006A9345 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087B032F257B5831006A9345 /* SignUpViewController.xib */; };
+		087B0335257B5CFD006A9345 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0333257B5CFD006A9345 /* HomeViewController.swift */; };
+		087B0336257B5CFD006A9345 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087B0334257B5CFD006A9345 /* HomeViewController.xib */; };
+		087B033A257B5E26006A9345 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B0339257B5E26006A9345 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08429FCD257B8CFC00741143 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		08429FD2257B904900741143 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		08429FD3257B904900741143 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		087B030B257B5108006A9345 /* Insta Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Timeline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087B030E257B5108006A9345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		087B0310257B5108006A9345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		087B0312257B5108006A9345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		087B0315257B5108006A9345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087B0318257B5108006A9345 /* Insta_Timeline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Insta_Timeline.xcdatamodel; sourceTree = "<group>"; };
 		087B031A257B5109006A9345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087B031D257B5109006A9345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		087B031F257B5109006A9345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087B0329257B54F0006A9345 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		087B032A257B54F0006A9345 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		087B032E257B5831006A9345 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		087B032F257B5831006A9345 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		087B0333257B5CFD006A9345 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		087B0334257B5CFD006A9345 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		087B0339257B5E26006A9345 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08429FCC257B8CEA00741143 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				08429FCD257B8CFC00741143 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		08429FD1257B900E00741143 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				08429FD2257B904900741143 /* PostTableViewCell.swift */,
+				08429FD3257B904900741143 /* PostTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		087B0302257B5108006A9345 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +93,40 @@
 		087B030D257B5108006A9345 /* Insta Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				08429FD1257B900E00741143 /* cell */,
+				08429FCC257B8CEA00741143 /* model */,
+				087B0326257B5120006A9345 /* controllers */,
+				087B0327257B5128006A9345 /* apputils */,
 				087B030E257B5108006A9345 /* AppDelegate.swift */,
 				087B0310257B5108006A9345 /* SceneDelegate.swift */,
-				087B0312257B5108006A9345 /* ViewController.swift */,
-				087B0314257B5108006A9345 /* Main.storyboard */,
-				087B031A257B5109006A9345 /* Assets.xcassets */,
-				087B031C257B5109006A9345 /* LaunchScreen.storyboard */,
 				087B031F257B5109006A9345 /* Info.plist */,
-				087B0317257B5108006A9345 /* Insta_Timeline.xcdatamodeld */,
 			);
 			path = "Insta Timeline";
+			sourceTree = "<group>";
+		};
+		087B0326257B5120006A9345 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				087B0339257B5E26006A9345 /* BaseViewController.swift */,
+				087B0333257B5CFD006A9345 /* HomeViewController.swift */,
+				087B0334257B5CFD006A9345 /* HomeViewController.xib */,
+				087B0329257B54F0006A9345 /* SignInViewController.swift */,
+				087B032A257B54F0006A9345 /* SignInViewController.xib */,
+				087B032E257B5831006A9345 /* SignUpViewController.swift */,
+				087B032F257B5831006A9345 /* SignUpViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		087B0327257B5128006A9345 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				087B031C257B5109006A9345 /* LaunchScreen.storyboard */,
+				087B0314257B5108006A9345 /* Main.storyboard */,
+				087B031A257B5109006A9345 /* Assets.xcassets */,
+				087B0317257B5108006A9345 /* Insta_Timeline.xcdatamodeld */,
+			);
+			path = apputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +186,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087B0331257B5831006A9345 /* SignUpViewController.xib in Resources */,
+				087B032C257B54F0006A9345 /* SignInViewController.xib in Resources */,
 				087B031E257B5109006A9345 /* LaunchScreen.storyboard in Resources */,
 				087B031B257B5109006A9345 /* Assets.xcassets in Resources */,
+				08429FD5257B904900741143 /* PostTableViewCell.xib in Resources */,
 				087B0316257B5108006A9345 /* Main.storyboard in Resources */,
+				087B0336257B5CFD006A9345 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087B032B257B54F0006A9345 /* SignInViewController.swift in Sources */,
 				087B0319257B5108006A9345 /* Insta_Timeline.xcdatamodeld in Sources */,
-				087B0313257B5108006A9345 /* ViewController.swift in Sources */,
 				087B030F257B5108006A9345 /* AppDelegate.swift in Sources */,
+				08429FCE257B8CFC00741143 /* Post.swift in Sources */,
 				087B0311257B5108006A9345 /* SceneDelegate.swift in Sources */,
+				087B0330257B5831006A9345 /* SignUpViewController.swift in Sources */,
+				087B033A257B5E26006A9345 /* BaseViewController.swift in Sources */,
+				087B0335257B5CFD006A9345 /* HomeViewController.swift in Sources */,
+				08429FD4257B904900741143 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
